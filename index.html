@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel Gallery | Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Pixel Gallery</h1>
+    <p>Explore the beauty of the world</p>
+  </header>
+
+  <nav class="filters">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="nature">Nature</button>
+    <button data-filter="animals">Animals</button>
+    <button data-filter="architecture">Architecture</button>
+    <button data-filter="food">Food</button>
+  </nav>
+
+  <main class="gallery" id="gallery"></main>
+
+  <div class="lightbox" id="lightbox">
+    <button id="close" aria-label="Close">&times;</button>
+    <button id="prev" aria-label="Previous">&#10094;</button>
+    <img id="preview" src="" alt="Preview">
+    <button id="next" aria-label="Next">&#10095;</button>
+    <p id="caption"></p>
+  </div>
+
+  <footer>
+    <p>© 2026 Pixel Gallery | Created by Khushi Gupta</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
